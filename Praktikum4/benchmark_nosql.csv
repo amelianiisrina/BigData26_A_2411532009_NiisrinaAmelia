@@ -1,0 +1,20 @@
+langkah,detik
+baca trips_bersih,0.2153
+relasional: muat tabel,0.746
+key-value: bangun dict,1.7486
+cari 200 perjalanan - SQL tanpa indeks,2.6059
+cari 200 perjalanan - SQL dengan indeks,0.0023
+cari 200 perjalanan - key-value,0.0008
+hitung per wilayah - SQL GROUP BY,0.1239
+hitung per wilayah - key-value (buka semua nilai),0.8537
+DuckDB - hitung per wilayah (langsung dari Parquet),0.0231
+SQLite - muat seluruh baris ke tabel,1.3238
+SQLite - hitung per wilayah,0.36
+DuckDB - hanya wilayah Staten Island,0.0088
+hitung arus antar zona,0.0443
+2 langkah - graph (NetworkX),0.0083
+2 langkah - SQL self-join (DuckDB),0.0101
+"cara 1 - loop Python, 5 kotak",7.8672
+"cara 2 - NumPy, 1000 kotak",0.2388
+bangun indeks STRtree,0.0466
+"cara 3 - STRtree, 1000 kotak",0.1596
